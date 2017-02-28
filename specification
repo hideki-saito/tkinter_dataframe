@@ -1,0 +1,8 @@
+I need a small library of tkinter dialogs for use in Python. 
+
+The first one needs to be a short function that can be imported as needed which allows the user to select from a list of columns in a pandas dataframe. The function should:
+* examine the columns in a pandas dataframe
+* present the columns as a list which allows the user to select a set of columns. The selected columns should then show in a box to the right of the column list
+* have a radio button to indicate if the selected columns should be INCLUDED or EXCLUDED
+* the size and name of the dataframe should be shown at the top of the dialog
+* the function should return a dataframe including only the selected columns
